@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* left column styles */
+
+
+.search-form label {
+    color: #1e90ff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.search-form input{
+    font-size: 1.25rem;
+}
+
+.search-form button {
+    font-size: 1.25rem;
+}
+
+
+/* right column styles*/
+
+.cityBtn{
+    background-color: #b8b8b8;
+    border-radius: 10px;
+}

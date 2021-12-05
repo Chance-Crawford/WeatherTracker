@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- google fonts "poppins" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Weather Tracker</title>
+</head>
+<body>
+    <header class="d-flex justify-content-center p-3 bg-dark">
+        <h1 class="font-weight-bolder text-white">Weather Tracker</h1>
+    </header>
+
+    <!-- main content -->
+    <main class="row">
+
+        <!-- left column -->
+        <div class="col-12 col-md-4">
+            <form id="search-form" class="p-4">
+                <div class="form-group search-form">
+                    <label class="form-label" for="city-name">Search For A City:</label>
+                    <input type="text" name="city-name" class="form-control mt-2" placeholder="San Diego">
+                    <button type="submit" class="btn btn-dark w-100 mt-4 rounded-pill">Search</button>
+                </div>
+            </form>
+
+            <div class="p-4">
+                <div id="city-btn-holder" class="border-top border-secondary">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- right column -->
+        <div class="col-12 col-md-8">
+            <h2 class="text-center mt-5 font-weight-bold">Weather Forecast Displays Here!</h2>
+        </div>
+
+    </main>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

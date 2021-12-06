@@ -2,10 +2,20 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+    background: rgb(83,83,83);
+    background: linear-gradient(90deg, rgba(83,83,83,1) 0%, rgba(27,27,27,1) 98%);
+}
+
+h1{
+    position: sticky;
+}
 /* left column styles */
 
 
@@ -21,12 +31,83 @@ body {
 
 .search-form button {
     font-size: 1.25rem;
+    background-size: 1000px 1px;
+    background-position: -500px 0;
+    background-image: linear-gradient(90deg, rgba(83,83,83,1) 7%, rgba(27,27,27,1) 98%);
+    color: white;
+    transition: all .3s ease-in-out;
+    
 }
 
-
-/* right column styles*/
+.search-form button:hover {
+    color: white;
+    background-position: -140px 1px;
+    
+    
+}
 
 .cityBtn{
     background-color: #b8b8b8;
     border-radius: 10px;
+    font-size: 1.1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.cityBtn:hover{
+    background-color:  #a5a5a5;
+}
+
+/* right column styles*/
+
+.right-div{
+    width: 98%;
+}
+
+.city-title{
+    font-size: 2.5rem;
+    color: #1e90ff;
+}
+
+.week-div {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.city-p{
+    font-size: 1.25rem;
+}
+
+.bg-uv-index{
+    border-radius: 10px;
+}
+
+.card-bg{
+    background-color: #1e90ff;
+}
+
+
+.card-p{
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+
+/* medium sized breakpoint for tablets and under */
+/* minor fixes at media break */
+@media only screen and (max-width: 768px) { 
+
+    h1{
+        text-align: center;
+        position: static;
+    }
+
+    .week-div{
+        justify-content: center;
+    }
+    .card-day{
+        width: 85%;
+    }
+    .card-p{
+        font-size: 1.5rem;
+    }
 }

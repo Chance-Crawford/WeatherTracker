@@ -139,9 +139,10 @@ function displayWeather(cityObj, cityName){
     weatherDiv.classList = "right-div p-2 border border-dark";
 
     // current date string
+    // had to use daily[0] instead of current dt.
     // you convert unix time values by multiplying them
     // by 1000.
-    var date = moment(cityObj.current.dt * 1000).format("M/DD/YYYY");
+    var date = moment(cityObj.daily[0].dt * 1000).format("M/DD/YYYY");
     
     // h2 for city title with date
     var cityTitle = document.createElement("h2")

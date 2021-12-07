@@ -10,7 +10,7 @@ press the button or hit "enter" and the city's weather and future five-day forec
 
 The city you searched for will then be displayed in the menu at the left sidebar. You can click the city in the sidebar to bring up the weather conditions again. Up to eight cities can be saved in the menu.
 
-On refresh all previusly searched for cities will remain in the sidebar.
+On refresh all previously viewed cities will remain in the sidebar.
 
 ## Made With
 * HTML

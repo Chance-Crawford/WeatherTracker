@@ -4,6 +4,11 @@
 A tool to get the current weather conditions for any city in the
 world. Plus a five-day forecast of that city.
 
+## How To Run Application
+1. Git clone the repository
+2. Open the folder in a text editor
+3. Find index.html and open the file in your browser
+
 ## Usage
 Type in the city that you wish to view the weather conditions of,
 press the button or hit "enter" and the city's weather and future five-day forecast will be displayed. 
